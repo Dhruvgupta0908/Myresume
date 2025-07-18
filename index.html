@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhruv Gupta - Resume</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    header, footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    section {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+      gap: 20px;
+    }
+
+    #left, #right {
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    #left {
+      background-color: #e3eff9;
+      width: 30%;
+    }
+
+    #right {
+      background-color: white;
+      width: 70%;
+    }
+
+    #left ul, #right ul {
+      padding-left: 20px;
+    }
+
+    #left ul li, #right ul li {
+      margin: 8px 0;
+    }
+
+    #pp {
+      width: 120px;
+      height: 120px;
+      border: 2px solid #003366;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    #right h1 {
+      margin-top: 10px;
+      font-size: 28px;
+      color: #003366;
+    }
+
+    h2 {
+      margin-top: 20px;
+      font-size: 20px;
+      color: #004080;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    @media screen and (max-width: 768px) {
+      section {
+        flex-direction: column;
+      }
+
+      #left, #right {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header><h1>My Web Resume</h1></header>
+  <section>
+    <div id="left">
+      <h2>Contact</h2>
+      <ul>
+        <li><strong>Email:</strong> dhruvgupta0908@gmail.com</li>
+        <li><strong>Phone:</strong> +91-9654375623</li>
+        <li><strong>City:</strong> Delhi, India</li>
+      </ul>
+
+      <h2>Profile Summary</h2>
+      <p>Motivated and detail-oriented web development student with a passion for creating modern and responsive websites.</p>
+
+      <h2>Skills</h2>
+      <ul>
+        <li>C++</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Data Structures</li>
+      </ul>
+
+      <h2>Languages</h2>
+      <ul>
+        <li>English</li>
+        <li>Hindi</li>
+      </ul>
+
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Playing as well as watching cricket</li>
+        <li>Watching documentaries</li>
+        
+      </ul>
+    </div>
+
+    <div id="right">
+      <img id="pp" src="./assets/dhruvphoto.jpg" alt="Profile Photo" />
+      <h1>Dhruv Gupta</h1>
+
+      <h2>Education</h2>
+       <ul>
+            <li><strong>Bachelors of Technology</strong>
+                <ul>
+                <li>Bhagwan Parshuram Institute of Technology</li>
+                <li>2022-2026</li>
+                <li>CGPA: 9.2</li>
+                </ul>
+            </li>
+            <li><strong>Class 12</strong>
+                <ul>
+                    <li>Bal Bharti Public School</li>
+                    <li>2019-2021</li>
+                    <li>Percentage: 92%</li>
+                </ul>
+            </li>
+             <li><strong>Class 10</strong>
+                <ul>
+                    <li>Bal Bharti Public School</li>
+                    <li>2017-2019</li>
+                    <li>Percentage: 94%</li>
+                </ul>
+            </li>
+       </ul>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Ecommerce Website</strong> – Website showing wide range of projects to shop from.</li>
+        <li><strong>Air Bnb clone</strong> – A replica of website of airbnb showcasing all its features.</li>
+      </ul>
+
+      
+
+      <h2>Certifications</h2>
+      <ul>
+        <li>HTML, CSS & JavaScript for Web Developers – Udemy</li>
+        <li>Data Structure and Algorithm - Coding Ninjas</li>
+      </ul>
+
+      <h2>Achievements</h2>
+      <ul>
+        <li>Winner – Hackathon 2024, BPIT</li>
+        <li>Top 10% in Web Development Challenge – Coding Ninjas</li>
+      </ul>
+    </div>
+  </section>
+  <footer>&copy; 2025 Dhruv Gupta</footer>
+</body>
+</html>
